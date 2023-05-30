@@ -47,19 +47,37 @@ body{
     color: #0048FF;
 }
 
+.navbar a:hover, 
+.navbar a.active{
+    color: #0048FF;
+}
+
 .home{
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     padding: 0px 10%;
 }
 
 .home-content{
-    background: red;
+    background: transparent;
     max-width: 700px;
 }
 
 .home-content h1 {
     font-size: 50px;
     font-weight: 800;
+}
+
+.home-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.projects {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
 }
