@@ -46,3 +46,20 @@ body{
 .navbar a.active{
     color: #0048FF;
 }
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+.home-content{
+    background: red;
+    max-width: 700px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
