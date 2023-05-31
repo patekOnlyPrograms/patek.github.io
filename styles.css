@@ -81,3 +81,14 @@ body{
     align-items: center;
     padding: 0px 10%;
 }
+
+.projects-content{
+    background:green;
+    max-width: 1000px;
+}
+
+.projects-content dt {
+    font-size: 30px;
+    font-family: 700;
+    color: black;
+}
